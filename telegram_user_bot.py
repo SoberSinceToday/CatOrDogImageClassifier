@@ -16,7 +16,7 @@ def load_image(filename):
     return img
 
 
-bot = Bot(token="6386381405:AAEU3CNwZ7wzapAq-k7SdqELqt40WBePbJM")
+bot = Bot(token="token")
 dp = Dispatcher()
 
 model = load_model("cat_or_dog_img_classifier.h5")
