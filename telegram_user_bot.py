@@ -16,7 +16,6 @@ def load_image(filename):
     return img
 
 
-
 bot = Bot(token="token")
 dp = Dispatcher()
 
